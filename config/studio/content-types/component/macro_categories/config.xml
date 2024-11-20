@@ -2,10 +2,12 @@
 	<label>macro_categories</label>
 	<form>/component/macro_categories</form>
 	<form-path>simple</form-path>
+	<model-instance-path>undefined</model-instance-path>
+	<file-extension>undefined</file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
-	<quickCreate>true</quickCreate>
-	<quickCreatePath>/site/components/categories/{name}</quickCreatePath>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 </content-type>
