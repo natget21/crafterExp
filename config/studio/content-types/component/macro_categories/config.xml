@@ -4,10 +4,15 @@
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
-	<content-as-folder>false</content-as-folder>
+	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
-	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreate>true</quickCreate>
+	<quickCreatePath>/site/component/categories/{name}</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+        <includes>
+            <pattern>^/site/component/categories/.*</pattern>
+        </includes>
+    </paths>
 </content-type>
