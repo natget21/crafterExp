@@ -3,10 +3,11 @@
 	<form>/component/macro_categories</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
+	<file-extension>undefined</file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
 	<quickCreate>false</quickCreate>
-	<quickCreatePath>/site/component/categories/{name}</quickCreatePath>
+	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 </content-type>
