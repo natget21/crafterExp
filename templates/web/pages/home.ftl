@@ -8,10 +8,10 @@
     <!-- Navigation Section -->
     <#include "/templates/web/fragments/navigation.ftl">
     <main>
-        <#include "carousel.ftl">
-        <#include "featured.ftl">
-        <#include "categories.ftl">
-        <#include "products.ftl">
+        <#include "/templates/web/components/carousel.ftl">
+        <#include "/templates/web/components/featured.ftl">
+        <#include "/templates/web/components/categories.ftl">
+        <#include "/templates/web/components/products.ftl">
     </main>
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
