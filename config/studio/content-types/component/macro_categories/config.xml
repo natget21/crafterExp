@@ -6,8 +6,8 @@
 	<file-extension></file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
-	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreate>true</quickCreate>
+	<quickCreatePath>/site/components/macro_categories/</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
