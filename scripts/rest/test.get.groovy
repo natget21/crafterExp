@@ -38,5 +38,16 @@
 
 // return items
 
-def items = siteItemService.getSiteItem("/site/components/vendor")
-return items
+def searchResponse = searchService.search {
+    query = 'content-type:/component/vendor'
+}
+return [
+    status: 200,
+    vendors: searchResponse.documents.collect { doc ->
+        [
+            name: doc.properties['name']?.stringValue,
+            link: doc.properties['link']?.stringValue,
+            logo: doc.properties['logo']?.stringValue
+        ]
+    }
+]
