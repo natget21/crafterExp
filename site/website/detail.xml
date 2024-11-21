@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/detail</content-type>
+	<display-template>/templates/web/pages/detail.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>17be</objectGroupId>
+	<objectId>17be41fa-ce44-7845-a3aa-355dc12ef3c3</objectId>
+	<file-name>detail.xml</file-name>
+	<folder-name/>
+	<internal-name>detail</internal-name>
+	<navLabel>detail</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2024-11-21T15:21:43.178Z</createdDate>
+	<createdDate_dt>2024-11-21T15:21:43.178Z</createdDate_dt>
+	<lastModifiedDate>2024-11-21T15:21:43.178Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-21T15:21:43.178Z</lastModifiedDate_dt>
+</page>
