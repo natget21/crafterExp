@@ -16,8 +16,8 @@
          <#include "/templates/web/components/featured.ftl"> 
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
-         <#include "/templates/web/components/vendor-carousel-copy-1.ftl"> 
-         <@renderComponent component=contentModel.vendorCarousel.item />
+         <#include "/templates/web/components/vendor-carousel.ftl"> 
+         <@renderComponent component=contentModel.vendorCarouselCopy.item />
     </main>
 
     <!-- Footer Section -->
