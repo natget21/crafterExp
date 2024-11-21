@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#attempt>
-    <#list crafter.content.query("/site/components/vendor") as vendor>
+    <#list siteItemService.getSiteItem("/site/components/vendor") as vendor>
         <div class="vendor-item border p-4">
             <a href="${vendor.link}">
                 <img src="${vendor.logo}" alt="${vendor.name}" style="max-width: 100%;">
