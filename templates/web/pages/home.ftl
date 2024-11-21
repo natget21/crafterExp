@@ -7,7 +7,14 @@
     <!-- Header Section (Logo, Search Bar, etc.) -->
     <#include "/templates/web/fragments/header.ftl">
 
-   
+    <!-- Main Content Section -->
+    <main>
+         <#include "/templates/web/components/carousel.ftl"> 
+         <#include "/templates/web/components/featured.ftl"> 
+         <#include "/templates/web/components/categories.ftl"> 
+         <#include "/templates/web/components/products.ftl"> 
+         <#include "/templates/web/components/vendor-carousel.ftl"> 
+    </main>
 
     <!-- Footer Section -->
     <#include "/templates/web/fragments/footer.ftl">
