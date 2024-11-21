@@ -36,7 +36,7 @@
 						<id>Pages</id>
 						<label>Pages</label>
 						<icon id="@mui/icons-material/DescriptionOutlined"/>
-						<rootPath>/site/website/index.xml</rootPath>
+						<rootPath>/site/website</rootPath>
 						<locale>en</locale>
 					</configuration>
 				</widget>
