@@ -18,22 +18,22 @@
 
 // return topNavItems
 
-def searchResponse = searchClient.search(r -> r
-  .query(q -> q
-    .bool(b -> b
-      .should(s -> s
-        .match(m -> m
-          .field('content-type')
-          .query(v -> v
-            .stringValue('/component/vendor')
-          )
-        )
-      )
-    )
-  )
-, Map)
+// def searchResponse = searchClient.search(r -> r
+//   .query(q -> q
+//     .bool(b -> b
+//       .should(s -> s
+//         .match(m -> m
+//           .field('content-type')
+//           .query(v -> v
+//             .stringValue('/component/vendor')
+//           )
+//         )
+//       )
+//     )
+//   )
+// , Map)
 
-def itemsFound = searchResponse.hits().total().value()
-def items = searchResponse.hits().hits()*.source()
+// def itemsFound = searchResponse.hits().total().value()
+// def items = searchResponse.hits().hits()*.source()
 
-return items
+// return items
