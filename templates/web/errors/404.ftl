@@ -18,7 +18,6 @@
 						<div class="inner">
 
                             <!-- Header -->
-							<@renderComponent componentPath="/site/components/headers/header.xml" />
 
                             <!-- Banner -->
 								<section id="banner">
