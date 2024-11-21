@@ -38,7 +38,7 @@
 
 // return items
 
-def searchResponse = searchService.search {
+def searchResponse = searchClient.search {
     query = "content-type:/component/vendor"
     rows = 10
 }
