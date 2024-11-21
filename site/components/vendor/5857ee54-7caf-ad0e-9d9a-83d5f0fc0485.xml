@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<content-type>/component/vendor</content-type>
-	<display-template/>
-	<no-template-required>true</no-template-required>
+	<display-template>/templates/web/components/vendor-carousel-copy.ftl</display-template>
+	<no-template-required>false</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>5857</objectGroupId>
 	<objectId>5857ee54-7caf-ad0e-9d9a-83d5f0fc0485</objectId>
@@ -14,6 +14,6 @@
 	<logo_s>/static-assets/img/vendor-2.jpg</logo_s>
 	<createdDate>2024-11-21T13:11:03.639Z</createdDate>
 	<createdDate_dt>2024-11-21T13:11:03.639Z</createdDate_dt>
-	<lastModifiedDate>2024-11-21T13:11:03.639Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-21T13:11:03.639Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-21T23:49:21.166Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-21T23:49:21.166Z</lastModifiedDate_dt>
 </component>
