@@ -17,7 +17,7 @@
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
          <#include "/templates/web/components/vendor-carousel.ftl"> 
-         <@renderComponent component=contentModel.vendors.item />
+         <@renderComponent component=contentModel.vender-carosel.item />
     </main>
 
     <!-- Footer Section -->
