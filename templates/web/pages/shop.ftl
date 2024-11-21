@@ -8,3 +8,4 @@
     <#include "/templates/web/fragments/footer.ftl">
     <#include "/templates/web/fragments/scripts.ftl">
 </body>
+</html>
