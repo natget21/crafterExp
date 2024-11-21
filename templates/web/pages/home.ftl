@@ -2,17 +2,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<#include "/site/fragments/head.ftl">
+<#include "/templates/web/fragments/head.ftl">
 <body>
     <!-- Header Section (Logo, Search Bar, etc.) -->
-    <#include "/site/fragments/header.ftl">
+    <#include "/templates/web/fragments/header.ftl">
 
    
 
     <!-- Footer Section -->
-    <#include "/site/fragments/footer.ftl">
+    <#include "/templates/web/fragments/footer.ftl">
 
     <!-- Scripts -->
-    <#include "/site/fragments/scripts.ftl">
+    <#include "/templates/web/fragments/scripts.ftl">
 </body>
 </html>
