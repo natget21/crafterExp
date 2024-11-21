@@ -18,6 +18,11 @@
          <#include "/templates/web/components/products.ftl"> 
          <#include "/templates/web/components/vendor-carousel.ftl"> 
          <#include "/templates/web/components/vendor-carousel-copy.ftl">
+         <@crafter.renderComponentCollection
+          $field="vendors_o"
+          $containerAttributes={ "class": "vendors" }
+          $itemAttributes={ "class": "vendor-container" }
+        />
     </main>
 
     <!-- Footer Section -->
