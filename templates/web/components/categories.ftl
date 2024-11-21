@@ -5,7 +5,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -18,7 +18,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -31,7 +31,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -44,7 +44,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -57,7 +57,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -70,7 +70,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -83,7 +83,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -96,7 +96,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -109,7 +109,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -122,7 +122,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -135,7 +135,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
@@ -148,7 +148,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                            <img class="img-fluid" src="static-assets/img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Category Name</h6>
