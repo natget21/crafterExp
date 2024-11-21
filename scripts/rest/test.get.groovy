@@ -37,3 +37,6 @@
 // def items = searchResponse.hits().hits()*.source()
 
 // return items
+
+def items = siteItemService.getSiteItem("/site/components/vendor")
+return items
