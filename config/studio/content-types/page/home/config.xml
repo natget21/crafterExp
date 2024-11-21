@@ -1,5 +1,5 @@
 <content-type name="/page/home" is-wcm-type="true">
-	<label>home</label>
+	<label>Home</label>
 	<form>/page/home</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,11 +8,11 @@
 	<previewable>true</previewable>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
-	<noThumbnail>true</noThumbnail>
-	<image-thumbnail></image-thumbnail>
+	<noThumbnail>false</noThumbnail>
+	<image-thumbnail>page-home.png</image-thumbnail>
 	<paths>
-		<includes>
-			<pattern>^/site/website/.*</pattern>
-		</includes>
+		<excludes>
+			<pattern>^/site/.*</pattern>
+		</excludes>
 	</paths>
 </content-type>
