@@ -39,10 +39,10 @@
 // return items
 
 def searchResponse = searchService.search {
-    query = 'content-type:/component/vendor'
+    query = "content-type:/component/vendor"
+    rows = 10
 }
 return [
-    status: 200,
     vendors: searchResponse.documents.collect { doc ->
         [
             name: doc.properties['name']?.stringValue,
