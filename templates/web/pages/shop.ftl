@@ -1,3 +1,7 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+<!DOCTYPE html>
+<html lang="en">
 <#include "/templates/web/fragments/head.ftl">
 <body>
     <#include "/templates/web/fragments/header.ftl">
