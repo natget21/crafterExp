@@ -7,7 +7,7 @@
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
 	<quickCreate>true</quickCreate>
-	<quickCreatePath>/site/components/categories/</quickCreatePath>
+	<quickCreatePath>/site/components/categories</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
