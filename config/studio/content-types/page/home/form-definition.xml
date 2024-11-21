@@ -145,31 +145,10 @@
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
-					<type>repeat</type>
+					<type>node-selector</type>
 					<id>vendors_o</id>
 					<iceId></iceId>
 					<title>vendors</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>node-selector</type>
-					<id>vendor_o</id>
-					<iceId></iceId>
-					<title>vendor</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -217,8 +196,6 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
-				</field>
-					</fields>
 				</field>
 			</fields>
 		</section>
