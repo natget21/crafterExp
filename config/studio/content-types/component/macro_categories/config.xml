@@ -2,8 +2,8 @@
 	<label>macro_categories</label>
 	<form>/component/macro_categories</form>
 	<form-path>simple</form-path>
-	<model-instance-path></model-instance-path>
-	<file-extension></file-extension>
+	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
+	<file-extension>xml</file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
 	<quickCreate>true</quickCreate>
