@@ -7,12 +7,12 @@
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
 	<quickCreate>true</quickCreate>
-	<quickCreatePath>/site/components/macro_categories/</quickCreatePath>
+	<quickCreatePath>/site/components/categories/</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^/site/components/macro_categories/.*</pattern>
+			<pattern>^/site/components/categories/.*</pattern>
 		</includes>
 	</paths>
 </content-type>
