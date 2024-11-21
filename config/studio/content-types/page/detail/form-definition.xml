@@ -4,8 +4,8 @@
 	<objectType>page</objectType>
 	<content-type>/page/detail</content-type>
 	<imageThumbnail></imageThumbnail>
-	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreate>true</quickCreate>
+	<quickCreatePath>/site/website</quickCreatePath>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
