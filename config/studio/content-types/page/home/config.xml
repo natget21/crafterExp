@@ -10,9 +10,4 @@
 	<quickCreatePath>/site/website</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
-	<paths>
-		<excludes>
-			<pattern>^/site/website/.*</pattern>
-		</excludes>
-	</paths>
 </content-type>
