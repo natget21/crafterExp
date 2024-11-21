@@ -1,4 +1,4 @@
-def result = search ("/site/components/vendor")
+def result = searchClient.search("/site/components/vendor")
 return result
 
 // def topNavItems = [:]
