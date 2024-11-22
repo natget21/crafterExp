@@ -18,7 +18,7 @@
          <#include "/templates/web/components/products.ftl"> 
          
          
-        <#assign vendors = contentModel.queryValues("//vendorss_o/item/key")/>
+        <#assign vendors = contentModel.queryValues("//vendors_o/item/key")/>
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
                 <div class="col">
