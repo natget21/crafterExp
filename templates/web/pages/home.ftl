@@ -17,6 +17,7 @@
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
          
+         ${contentModel.vendors_o?string}
          <#assign vendors = contentModel.vendors_o>
          <#include "/templates/web/components/vendor-carousel-copy.ftl">
 
