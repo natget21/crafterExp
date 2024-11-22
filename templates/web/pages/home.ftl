@@ -20,11 +20,7 @@
          
         <#assign vendors = contentModel.queryValues("//vendors_o")/>
         
-        <ul>
-    <#list vendors as vendor>
-        <li>${vendor}</li>
-    </#list>
-</ul>
+        <p>${contentModel.vendors_o?string}</p>
         
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
