@@ -6,13 +6,13 @@
 	<file-extension>xml</file-extension>
 	<content-as-folder>false</content-as-folder>
 	<previewable>false</previewable>
-	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreate>true</quickCreate>
+	<quickCreatePath>/components/vendors</quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
-        <includes>
-            <pattern>^/components/vendors/.*</pattern>
-        </includes>
-    </paths>
+		<includes>
+			<pattern>^/components/vendors/.*</pattern>
+		</includes>
+	</paths>
 </content-type>
