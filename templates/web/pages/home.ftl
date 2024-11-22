@@ -18,7 +18,20 @@
          <#include "/templates/web/components/products.ftl"> 
          
          
-         <#assign vendors = contentModel.queryValues("//vendorss_o/item/key")/>
+        <#assign vendors = contentModel.queryValues("//vendorss_o/item/key")/>
+        <div class="container-fluid py-5">
+            <div class="row px-xl-5">
+                <div class="col">
+                    <div class="owl-carousel vendor-carousel">
+                        <#list vendors as vendor>
+                            <div class="bg-light p-4">
+                                <img src="${vendor.logo}" alt="${vendor.name}">
+                            </div>
+                        </#list>
+                    </div>
+                </div>
+            </div>
+        </div>
          <#include "/templates/web/components/vendor-carousel-copy.ftl">
 
         <!-- <@crafter.renderComponentCollection
