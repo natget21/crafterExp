@@ -1,3 +1,4 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#attempt>
     <div class="vendor-item border p-4">
         <a href="${vendor.link}">
