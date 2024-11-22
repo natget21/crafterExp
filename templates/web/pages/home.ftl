@@ -18,7 +18,7 @@
          <#include "/templates/web/components/products.ftl"> 
          
          
-        <#assign vendors = contentModel.queryValues("//vendors_o/item/key")/>
+        <#assign vendors = contentModel.queryValues("//vendors_o")/>
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
                 <div class="col">
@@ -32,7 +32,8 @@
                 </div>
             </div>
         </div>
-         <#include "/templates/web/components/vendor-carousel-copy.ftl">
+         
+        <!-- <#include "/templates/web/components/vendor-carousel-copy.ftl"> -->
 
         <!-- <@crafter.renderComponentCollection
           $field="vendors_o"
