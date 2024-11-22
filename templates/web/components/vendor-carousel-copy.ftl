@@ -1,4 +1,4 @@
-
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="container-fluid py-5">
     <div class="row px-xl-5">
