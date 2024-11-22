@@ -17,8 +17,8 @@
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
          
-         
-         <@renderComponent component=contentModel.vendors_o.item />
+         <#assign vendors = contentModel.vendors_o>
+         <#include "/templates/web/components/vendor-carousel-copy.ftl">
 
         <!-- <@crafter.renderComponentCollection
           $field="vendors_o"
