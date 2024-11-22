@@ -20,7 +20,7 @@
          
         <#assign vendors = contentModel.queryValues("//vendors_o")/>
         
-        <p>${contentModel.vendors_o?string}</p>
+        <p>${contentModel.vendors_o.item?string}</p>
         
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
