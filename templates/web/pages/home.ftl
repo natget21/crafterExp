@@ -17,11 +17,11 @@
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
 
-         <@crafter.renderComponentCollection
+        <!-- <@crafter.renderComponentCollection
           $field="vendors_o"
-          $containerAttributes={ "class": "vendors" }
-          $itemAttributes={ "class": "vendor-item" }
-         />
+          $containerAttributes={ "class": "custom_vendors_container_class" }
+          $itemAttributes={ "class": "custom_vendor_item_class" }
+        /> -->
     </main>
 
     <!-- Footer Section -->
