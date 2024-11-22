@@ -18,9 +18,10 @@
          <#include "/templates/web/components/products.ftl"> 
          
          
-        <#assign vendors = contentModel.queryValues("//vendors_o")/>
+        <#assign vendors2 = contentModel.queryValues("//vendors_o")/>
+        <#assign vendors = contentModel.vendors_o.item/>
         
-        <p>${contentModel.vendors_o.item?string}</p>
+        <p>${contentModel.vendors_o.item?join(", ")}</p>
         
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
