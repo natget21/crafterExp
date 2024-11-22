@@ -23,7 +23,7 @@
         <#assign vendors = crafter.resolveNodes(contentModel.vendors_o)/>
         
         
-        <p>${contentModel.vendors_o.item?join(", ")}</p>
+        <p>${vendors.item?join(", ")}</p>
         
         <div class="container-fluid py-5">
             <div class="row px-xl-5">
