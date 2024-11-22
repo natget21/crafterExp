@@ -1,5 +1,5 @@
 <form>
-	<title>home - page</title>
+	<title>page: Home</title>
 	<description></description>
 	<objectType>page</objectType>
 	<content-type>/page/home</content-type>
@@ -228,12 +228,12 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components/vendor</value>
+							<value>/site/components/vendors</value>
 								<type>string</type>
 						</property>
 						<property>
 							<name>baseBrowsePath</name>
-							<value>/site/components/vendor</value>
+							<value>/site/components/vendors</value>
 								<type>string</type>
 						</property>
 						<property>
