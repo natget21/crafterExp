@@ -4,7 +4,7 @@
     <div class="row px-xl-5">
         <div class="col">
             <div class="owl-carousel vendor-carousel">
-                <#list contentModel.vendors_o as vendor >
+                <#list vendors as vendor>
                     <div class="bg-light p-4">
                         <img src="${vendor.logo_s}" alt="${vendor.name_s}">
                     </div>
