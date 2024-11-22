@@ -2,6 +2,6 @@
 
 <div class="vendor-item border p-4">
     <a href="${contentModel.link_s}">
-        <img src="${contentModel.logo_s}" alt="${contentModel.name_s}" style="max-width: 100%;" />
+        <img src="${contentModel.logo_s}" alt="${contentModel.name_s}" />
     </a>
 </div>
