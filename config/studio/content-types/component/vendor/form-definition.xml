@@ -1,5 +1,5 @@
 <form>
-	<title>vendor</title>
+	<title>vendor - item</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/vendor</content-type>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value>true</value>
+			<value>false</value>
 			<type>boolean</type>
 		</property>
 		<property>
