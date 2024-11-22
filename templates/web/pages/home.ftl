@@ -18,6 +18,7 @@
          <#include "/templates/web/components/products.ftl"> 
          
          
+         <#assign vendors = contentModel.queryValues("//vendorss_o/item/key")/>
          <#include "/templates/web/components/vendor-carousel-copy.ftl">
 
         <!-- <@crafter.renderComponentCollection
