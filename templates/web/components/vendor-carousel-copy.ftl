@@ -9,7 +9,7 @@
               $itemAttributes={ "class": "bg-light p-4" };
               item, index
             >
-                <img src="${item.logo_s}" alt="${item.name_s}" style="max-width: 100%;">
+                <img src="${item.logo_s}" alt="${item.name_s}">
             </@crafter.renderComponentCollection>
         </div>
     </div>
