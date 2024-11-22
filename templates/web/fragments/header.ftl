@@ -67,8 +67,8 @@
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <p class="m-0">Customer Service</p>
-                <h5 class="m-0">+012 345 6789</h5>
+                <p class="m-0">Login or</p>
+                <h5 class="m-0">Signup</h5>
             </div>
         </div>
     </div>
