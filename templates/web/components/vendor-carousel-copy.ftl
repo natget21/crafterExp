@@ -3,13 +3,14 @@
 <div class="container-fluid py-5">
     <div class="row px-xl-5">
         <div class="col">
-            <div class="owl-carousel vendor-carousel">
-                <#list vendors as vendor>
-                    <div class="bg-light p-4">
-                        <img src="${vendor.logo}" alt="${vendor.name}">
-                    </div>
-                </#list>
-            </div>
+            <@crafter.renderComponentCollection
+              $field="vendors_o"
+              $containerAttributes={ "class": "owl-carousel vendor-carousel" }
+              $itemAttributes={ "class": "bg-light p-4" }
+              item, index
+            >
+                <img src="${item.logo}" alt="${item.name}">
+            </@crafter.renderComponentCollection>
         </div>
     </div>
 </div>
