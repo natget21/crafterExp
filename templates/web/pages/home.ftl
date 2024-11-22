@@ -19,7 +19,9 @@
          
          
         <#assign vendors2 = contentModel.queryValues("//vendors_o")/>
-        <#assign vendors = contentModel.vendors_o.item/>
+        <#assign vendors3 = contentModel.vendors_o.item/>
+        <#assign vendors = crafter.resolveNodes(contentModel.vendors_o)/>
+        
         
         <p>${contentModel.vendors_o.item?join(", ")}</p>
         
