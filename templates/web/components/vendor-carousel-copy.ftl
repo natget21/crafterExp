@@ -6,7 +6,7 @@
             <@crafter.renderComponentCollection
               $field="vendors_o"
               $containerAttributes={ "class": "owl-carousel vendor-carousel" }
-              $itemAttributes={ "class": "bg-light p-4" }
+              $itemAttributes={ "class": "bg-light p-4" };
               item, index
             >
                 <img src="${item.logo}" alt="${item.name}">
