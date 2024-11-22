@@ -17,9 +17,8 @@
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
          
-         <#assign vendors = contentModel.vendors_o>
-
-         <p>contentModel Data: ${contentModel?string}</p>         
+         <#assign vendors = crafter.resolveNodes(contentModel.vendors_o) />
+         
          <p>Vendors Data: ${vendors?string}</p>
          
          <#include "/templates/web/components/vendor-carousel-copy.ftl">
