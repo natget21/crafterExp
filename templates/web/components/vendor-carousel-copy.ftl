@@ -6,7 +6,7 @@
             <div class="owl-carousel vendor-carousel">
                 <#list vendors as vendor>
                     <div class="bg-light p-4">
-                        <img src="${vendor.logo}" alt="${vendor.name}">
+                        <img src="${vendor.logo_s}" alt="${vendor.name_s}">
                     </div>
                 </#list>
             </div>
