@@ -13,10 +13,10 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
                     <p class="text-center">${category.name}</p>
-                    <a href="${category.name}" class="cat-img position-relative overflow-hidden mb-3">
-                        <img class="img-fluid" src="${category.image}" alt="${category.name}">
+                    <a href="${category.name_s}" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="${category.image_s}" alt="${category.name_s}">
                     </a>
-                    <p class="text-center">${category.description?default("")}</p>
+                    <p class="text-center">${category.description_t?default("")}</p>
                 </div>
             </div>
         </#list>
