@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/categories</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f386</objectGroupId>
+	<objectId>f38627b5-8ebf-b72c-1e7e-211e05dad70d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>f38627b5-8ebf-b72c-1e7e-211e05dad70d</folder-name>
+	<internal-name>category 1</internal-name>
+	<name_s>category 1</name_s>
+	<description_t>description</description_t>
+	<image_s/>
+	<createdDate>2024-11-26T05:21:22.710Z</createdDate>
+	<createdDate_dt>2024-11-26T05:21:22.710Z</createdDate_dt>
+	<lastModifiedDate>2024-11-26T05:21:22.710Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-26T05:21:22.710Z</lastModifiedDate_dt>
+</component>
