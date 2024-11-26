@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#assign categoriesTree = siteItemService.getSiteTree('/site/components/categories', 1)>
+<#assign categoriesTree = siteItemService.getSiteTree('/site/component/categories', 1)>
                             
 
 <div class="container-fluid pt-5">
