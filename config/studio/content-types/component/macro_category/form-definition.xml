@@ -1,8 +1,8 @@
 <form>
-	<title>Item:Macro Category</title>
+	<title>Item: Macro Category</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/macro_categories</content-type>
+	<content-type>/component/macro_category</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
