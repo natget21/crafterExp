@@ -38,16 +38,21 @@
 
 // return items
 
-def searchResponse = searchClient.search {
-    query = "content-type:/component/vendor"
-    rows = 10
-}
-return [
-    vendors: searchResponse.documents.collect { doc ->
-        [
-            name: doc.properties['name']?.stringValue,
-            link: doc.properties['link']?.stringValue,
-            logo: doc.properties['logo']?.stringValue
-        ]
-    }
-]
+// def searchResponse = searchClient.search {
+//     query = "content-type:/component/vendor"
+//     rows = 10
+// }
+// return [
+//     vendors: searchResponse.documents.collect { doc ->
+//         [
+//             name: doc.properties['name']?.stringValue,
+//             link: doc.properties['link']?.stringValue,
+//             logo: doc.properties['logo']?.stringValue
+//         ]
+//     }
+// ]
+
+
+def item = siteItemService.getSiteTree('/site/components/categories', 1)
+
+return item
