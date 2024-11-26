@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/subcategory</content-type>
+	<content-type>/component/sub_categories</content-type>
 	<display-template/>
 	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
