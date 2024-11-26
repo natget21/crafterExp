@@ -1,5 +1,5 @@
 <form>
-	<title>sub_categories</title>
+	<title>Item: Sub Category</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/sub_categories</content-type>
@@ -26,7 +26,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>sub_categories Properties</title>
+			<title>sub category Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -88,9 +88,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>name_s</id>
+					<id>subCategoryName_s</id>
 					<iceId></iceId>
-					<title>name</title>
+					<title>Sub Category Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -135,28 +135,28 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>description_t</id>
+					<type>node-selector</type>
+					<id>category_o</id>
 					<iceId></iceId>
-					<title>description</title>
+					<title>Category</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>rows</name>
-							<value>5</value>
+							<name>minSize</name>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>100000</value>
+							<name>maxSize</name>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>allowResize</name>
-							<value>true</value>
-							<type>boolean</type>
+							<name>itemManager</name>
+							<value>category</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -164,52 +164,52 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>escapeContent</name>
-							<value>false</value>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
 				<field>
-					<type>image-picker</type>
-					<id>image_s</id>
+					<type>checkbox-group</type>
+					<id>tags_o</id>
 					<iceId></iceId>
-					<title>image</title>
+					<title>Tags</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
+							<name>datasource</name>
+							<value>tags</value>
+							<type>datasource:item:singleSelection</type>
 						</property>
 						<property>
-							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
-						</property>
-						<property>
-							<name>thumbnailWidth</name>
+							<name>selectAll</name>
 							<value></value>
-							<type>int</type>
+							<type>boolean</type>
 						</property>
 						<property>
-							<name>thumbnailHeight</name>
-							<value></value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>imageManager</name>
-							<value></value>
-							<type>datasource:image</type>
+							<name>listDirection</name>
+							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
+							<type>dropdown</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -219,14 +219,80 @@
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>minSize</name>
 							<value><![CDATA[]]></value>
-							<type>boolean</type>
+							<type>int</type>
 						</constraint>
 					</constraints>
 				</field>
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>components</type>
+					<id>category</id>
+					<title>category</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>allowEmbedded</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>allowShared</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepoPath</name>
+							<value>/site/components/categories</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components/categories</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>/component/categories</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>simpleTaxonomy</type>
+					<id>tags</id>
+					<title>Tags</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;Data Type&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>componentPath</name>
+							<value>/site/components/taxonomy/c75e804a-1180-fd59-31b8-43b415f10bcb.xml</value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
