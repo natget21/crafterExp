@@ -1,5 +1,5 @@
 <form>
-	<title>categories</title>
+	<title>Item:Categories</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/categories</content-type>
@@ -26,7 +26,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>categories Properties</title>
+			<title>Categories Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -77,6 +77,21 @@
 							<value>50</value>
 							<type>int</type>
 						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
 					</properties>
 					<constraints>
 						<constraint>
@@ -88,9 +103,110 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>name_s</id>
+					<id>categoryname_s</id>
 					<iceId></iceId>
-					<title>name</title>
+					<title>Category name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>node-selector</type>
+					<id>macrocategory_o</id>
+					<iceId></iceId>
+					<title>macrocategory</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>minSize</name>
+							<value>1</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxSize</name>
+							<value>1</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value>macrocategory</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>disableFlattening</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useSingleValueFilename</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>allowDuplicates</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>tags_s</id>
+					<iceId></iceId>
+					<title>Tags</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -135,10 +251,83 @@
 					</constraints>
 				</field>
 				<field>
-					<type>textarea</type>
-					<id>description_t</id>
+					<type>rte</type>
+					<id>description_html</id>
 					<iceId></iceId>
-					<title>description</title>
+					<title>Description</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>height</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSpellCheck</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value></value>
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value></value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>audioManager</name>
+							<value></value>
+							<type>datasource:audio</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value></value>
+							<type>datasource:item</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>textarea</type>
+					<id>_ai_Description_t</id>
+					<iceId></iceId>
+					<title>_ai_Description</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -178,42 +367,37 @@
 					</constraints>
 				</field>
 				<field>
-					<type>image-picker</type>
-					<id>image_s</id>
+					<type>textarea</type>
+					<id>ai_Tags_t</id>
 					<iceId></iceId>
-					<title>image</title>
+					<title>ai_Tags</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
-						</property>
-						<property>
-							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
-							<type>range</type>
-						</property>
-						<property>
-							<name>thumbnailWidth</name>
-							<value></value>
+							<name>rows</name>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>thumbnailHeight</name>
-							<value></value>
+							<name>maxlength</name>
+							<value>100000</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>imageManager</name>
-							<value>imageupload,repository</value>
-							<type>datasource:image</type>
+							<name>allowResize</name>
+							<value>true</value>
+							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
 							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -229,33 +413,50 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>img-desktop-upload</type>
-					<id>imageupload</id>
-					<title>image upload</title>
-					<interface>image</interface>
+					<type>components</type>
+					<id>macrocategory</id>
+					<title>macrocategory</title>
+					<interface>item</interface>
 					<properties>
 						<property>
-							<name>repoPath</name>
-							<value>/static-assets/uploads</value>
-								<type>content-path-input</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>img-repository-upload</type>
-					<id>repository</id>
-					<title>repository</title>
-					<interface>image</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/img</value>
-								<type>content-path-input</type>
+							<name>allowEmbedded</name>
+							<value>true</value>
+								<type>boolean</type>
 						</property>
 						<property>
-							<name>useSearch</name>
+							<name>allowShared</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
 							<value>false</value>
 								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepoPath</name>
+							<value>/site/components/macro_categories</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components/macro_categories</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>/component/macrocategories</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
