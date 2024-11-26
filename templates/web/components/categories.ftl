@@ -20,5 +20,8 @@
                 </div>
             </div>
         </#list>
+        <#else>
+            <p>No categories found.</p>
+        </#if>
     </div>
 </div>
