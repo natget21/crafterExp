@@ -20,8 +20,7 @@
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <p class="m-0"><a>Login</a> or</p>
-                <h5 class="m-0"><a>Signup</a></h5>
+                <a href="/loginuser" class="btn btn-primary text-uppercase px-4">Login/Register</a>
             </div>
         </div>
     </div>
