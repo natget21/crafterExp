@@ -11,9 +11,9 @@
 	<internal-name>category 1</internal-name>
 	<name_s>category 1</name_s>
 	<description_t>description</description_t>
-	<image_s/>
+	<image_s>/static-assets/img/cat-1.jpg</image_s>
 	<createdDate>2024-11-26T05:21:22.710Z</createdDate>
 	<createdDate_dt>2024-11-26T05:21:22.710Z</createdDate_dt>
-	<lastModifiedDate>2024-11-26T05:21:22.710Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-26T05:21:22.710Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-26T05:23:39.038Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-26T05:23:39.038Z</lastModifiedDate_dt>
 </component>
