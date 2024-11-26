@@ -13,7 +13,7 @@
     <!-- Main Content Section -->
     <main>
          <#include "/templates/web/components/carousel.ftl"> 
-         <#include "/templates/web/components/featured.ftl"> 
+         <!-- <#include "/templates/web/components/featured.ftl"> -->
          <#include "/templates/web/components/categories.ftl"> 
          <#include "/templates/web/components/products.ftl"> 
          
