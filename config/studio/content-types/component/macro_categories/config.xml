@@ -1,13 +1,13 @@
 <content-type name="/component/macro_categories" is-wcm-type="true">
-	<label>macro_categories</label>
+	<label>item: Macro Category</label>
 	<form>/component/macro_categories</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension></file-extension>
 	<content-as-folder>true</content-as-folder>
 	<previewable>false</previewable>
-	<quickCreate>true</quickCreate>
-	<quickCreatePath>/site/components/categories</quickCreatePath>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
 	<paths>
