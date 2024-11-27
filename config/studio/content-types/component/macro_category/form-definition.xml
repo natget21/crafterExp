@@ -357,7 +357,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>repository</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -396,14 +396,14 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>file-desktop-upload</type>
+					<type>img-desktop-upload</type>
 					<id>upload</id>
 					<title>upload</title>
-					<interface>item</interface>
+					<interface>image</interface>
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/uploads</value>
+							<value>/static-assets/img</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
