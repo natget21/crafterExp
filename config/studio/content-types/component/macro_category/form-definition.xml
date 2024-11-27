@@ -357,7 +357,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>repository</value>
+							<value>repository,upload</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
